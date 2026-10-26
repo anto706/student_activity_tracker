@@ -1,0 +1,21 @@
+###
+GET http://127.0.0.1:8000/api/activities/
+Accept: application/json
+
+
+
+
+
+###
+POST  http://127.0.0.1:8000/api/activities/
+Content-Type: application/json
+
+{
+    "student_name": "Anto",
+    "activity": "Coding",
+    "hours": 3
+}
+
+
+### Get activity summary
+GET http://127.0.0.1:8000/api/summary/
